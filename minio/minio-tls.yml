@@ -1,0 +1,16 @@
+---
+#concourse_version: '5.1.0'
+
+minio-tls-certificate: |
+ -----BEGIN CERTIFICATE-----
+ <---SNIP --->
+ -----END CERTIFICATE-----
+minio-tls-private_key: |
+ -----BEGIN PRIVATE KEY-----
+ <---SNIP--->
+ -----END PRIVATE KEY-----
+minio-tls-ca: |
+ -----BEGIN CERTIFICATE-----
+  <---SNIP--->
+ -----END CERTIFICATE-----
+minio-tls-hostname: minio.ragazzilab.com
